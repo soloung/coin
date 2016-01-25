@@ -37,7 +37,7 @@
             </props>
         </property>
 
-        <property name="packagesToScan" value="com.chentiming.dao.entity"/>
+        <property name="packagesToScan" value="com.chentiming.entity"/>
     </bean>
 
     <tx:annotation-driven transaction-manager="transactionManager"/>

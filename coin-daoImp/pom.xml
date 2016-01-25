@@ -2,25 +2,25 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.chentm</groupId>
-  <artifactId>coin-dao</artifactId>
+  <groupId>com.chentiming</groupId>
+  <artifactId>coin-daoImp</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>coin-dao</name>
+  <name>coin-daoImp</name>
   <url>http://maven.apache.org</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
     <parent>
-        <groupId>com.chentm</groupId>
+        <groupId>com.chentiming</groupId>
         <artifactId>coin-parent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>..</relativePath>
-    </parent> 
+    </parent>
   <dependencies>
-       <dependency>
+         <dependency>
             <groupId>com.jolbox</groupId>
             <artifactId>bonecp</artifactId>
             <version>0.8.0.RELEASE</version>
@@ -66,6 +66,11 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.30</version>
+        </dependency>
+        <dependency>
+            <groupId>com.chentiming</groupId>
+            <artifactId>coin-dao</artifactId>
+            <version>${project.version}</version>
         </dependency>
     <dependency>
       <groupId>junit</groupId>

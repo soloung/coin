@@ -21,3 +21,11 @@ coin-web/.settings/org.eclipse.wst.jsdt.ui.superType.name
 coin-web/.settings/org.eclipse.wst.validation.prefs
 coin-web/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF
 coin-web/target/m2e-wtp/web-resources/META-INF/maven/com.chentiming/coin-web/pom.properties
+coin-dao/target/classes/META-INF/maven/com.chentiming/coin-dao/pom.properties
+coin-daoImp/.classpath
+coin-daoImp/.settings/org.eclipse.core.resources.prefs
+coin-daoImp/.settings/org.eclipse.jdt.core.prefs
+coin-daoImp/.settings/org.eclipse.m2e.core.prefs
+coin-daoImp/.settings/org.eclipse.wst.common.component
+coin-daoImp/.settings/org.eclipse.wst.common.project.facet.core.xml
+coin-daoImp/.settings/org.eclipse.wst.validation.prefs

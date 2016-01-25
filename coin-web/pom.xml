@@ -8,17 +8,22 @@
   <name>coin-web Maven Webapp</name>
   <url>http://maven.apache.org</url>
       <parent>
-        <groupId>com.chentm</groupId>
+        <groupId>com.chentiming</groupId>
         <artifactId>coin-parent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>..</relativePath>
     </parent> 
   <dependencies>
   		<dependency>
-		    <groupId>com.chentm</groupId>
+		    <groupId>com.chentiming</groupId>
             <artifactId>coin-dao</artifactId>
             <version>0.0.1-SNAPSHOT</version>
 		</dependency>
+  		<dependency>
+		    <groupId>com.chentiming</groupId>
+            <artifactId>coin-daoImp</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+		</dependency>		
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-webmvc</artifactId>
