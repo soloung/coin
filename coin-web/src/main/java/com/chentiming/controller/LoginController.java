@@ -3,7 +3,7 @@ package com.chentiming.controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.chentm.dao.entity.User;
+import com.chentiming.entity.User;
 
 @RestController
 @RequestMapping(path = "/login")

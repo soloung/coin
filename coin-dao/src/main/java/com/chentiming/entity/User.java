@@ -1,4 +1,4 @@
-package com.chentm.dao.entity;
+package com.chentiming.entity;
 
 import javax.persistence.Entity;
 
